@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeContext } from './constexts/ThemeContext';
+import { ThemeContext } from './contexts/ThemeContext';
 
 export default class PageContent extends React.Component {
     static contextType = ThemeContext;
