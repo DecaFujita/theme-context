@@ -30,9 +30,10 @@ const content = {
 
 const Navbar = props => {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
-  const { language} = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
   const { classes } = props;
   const { search, flag } = content[language]
+
   return (
     <div className={classes.root}>
       <AppBar position='static' color={isDarkMode ? 'default' : 'primary'}>

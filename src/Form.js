@@ -39,8 +39,8 @@ const words = {
 }
 
 const Form = props => {
-  const { classes } = props;
   const { language, changeLanguage } = useContext(LanguageContext);
+  const { classes } = props;
   const { signIn, email, password, remember } = words[language];
 
   return (
